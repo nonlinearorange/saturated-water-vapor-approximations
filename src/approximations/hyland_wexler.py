@@ -10,6 +10,9 @@ class HylandWexler(Approximation):
     This approximation is valid within the range of -100 °C and 200 °C.
     """
 
+    def __init__(self):
+        super().__init__("Hyland-Wexler")
+
     def evaluate(self, temperature):
         t = temperature + 273.15
 
