@@ -9,6 +9,6 @@ class Approximation:
         Method to calculate a saturated water vapor pressure under a measured temperature.
 
         :param temperature: Measured temperature in celsius degrees (°C).
-        :return: Saturated water vapor pressure in pascals (KPa).
+        :return: Saturated water vapor pressure in pascals (Pa).
         """
         raise NotImplementedError

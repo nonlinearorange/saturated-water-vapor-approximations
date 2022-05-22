@@ -5,10 +5,10 @@ from approximations.approximation import Approximation
 
 class IAPWS(Approximation):
     """
-        IAPWS IF-97 approximation class for saturated water vapor pressure.
+    IAPWS IF-97 approximation class for saturated water vapor pressure.
 
-        This approximation is valid within the range of 0.0 °C and 373.946 °C.
-        """
+    This approximation is valid within the range of 0.0 °C and 373.946 °C.
+    """
 
     def __init__(self):
         super().__init__("IAPWS IF-97")

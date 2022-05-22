@@ -7,7 +7,7 @@ class HylandWexler(Approximation):
     """
     Hyland-Wexler approximation class for saturated water vapor pressure.
 
-    This approximation is valid within the range of -100 °C and 200 °C.
+    This approximation is valid within the range of -100.0 °C and 200.0 °C.
     """
 
     def __init__(self):
